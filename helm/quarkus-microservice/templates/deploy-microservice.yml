@@ -70,7 +70,7 @@ spec:
                     - pathType: Prefix
                       path: /{{.Release.Name}}(/|$)(.*)
                       backend:
-                            service: 
+                        service: 
                                 name: {{.Release.Name}}-microservice-service 
                                 port: 
                                     number: 30201
